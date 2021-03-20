@@ -38,6 +38,20 @@ function submit(){
 	newrow.appendChild(tdcost);
 	newrow.appendChild(tddate);
 	tableBody.appendChild(newrow);
-
+	
+	//store the data from input (localstorage)
+	if (typeof(Storage) !== "undefined") {
+		localStorage.setItem("totalOption", document.getElementById("category").value);
+		localStorage.setItem("totalCost", document.getElementById("cost").value);
+	}
+	else {
+		document.getElementById("allTotal") = "Sorry, your browser does not support Web Storage...";
+	}
+	
 }
 
+// retrieved the stored data
+function displayTotal() {
+	document.getElementById("allTotal") = localStorage.getItem("totalOption");
+	document.getElementById("allTotal") = locasStorage.getItem("totalCost");
+}
