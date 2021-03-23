@@ -1,0 +1,45 @@
+body{
+	background-color: #F6F3EF;
+}
+
+#background1 {
+	background-color: #EBE9E6;
+}
+
+#title {
+	padding: 0.9% 2%;
+	text-align: left;
+	font-family: tahoma;
+	font-size: 75%;
+	color: #BD6464;
+}
+
+h4 {
+	color: #945B3D;
+	font-size: 90%;
+	font-family: verdana;
+	font-weight: bold;
+	text-indent: 5%;
+}
+
+#income {
+	text-align: center;
+	padding: 0.7%;
+}
+
+.categories {
+	padding-bottom: 2%;
+	text-align: center;
+}
+
+.categories2 {
+	float: left;
+	position: relative;
+	width: 7%;
+	margin-left: 15%;
+}
+
+#expense {
+	text-align: center;
+	padding: 0.7%;
+}
